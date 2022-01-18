@@ -1,0 +1,28 @@
+{
+  "name": "primor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duditoesteban/Primor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duditoesteban/Primor/issues"
+  },
+  "homepage": "https://github.com/duditoesteban/Primor#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.48.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
