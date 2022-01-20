@@ -1,3 +1,29 @@
-$primary: #000000;
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
-h1{color:lime;}
+body{
+	h1,h2{text-transform:uppercase;}
+	h1{font-size:2rem}
+	h2{font-size:2.5rem;margin-bottom:2rem;margin-top:4rem;}
+	
+	.container{
+		&.claim{
+			h1,h2,mark{font-family: 'Poiret One', cursive;}
+		}
+		
+		&+.container,
+		&+.row {
+			margin-top: 1rem;
+			&.claim{margin:2rem 0;}
+		}
+			
+		&.lista-productos{
+			strong,
+			span{
+				display:block;
+			}
+		}
+		
+	}
+}
+
+
